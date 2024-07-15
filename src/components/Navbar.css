@@ -1,0 +1,129 @@
+/* src/custom.css */
+  
+  .btn-primary-min {
+    background-color: #3CAE5C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    font-weight: 400;
+    font-size: 15px;
+    color: #3CAE5C; 
+    border: 1px solid #3CAE5C; 
+    padding: 7px 20px; 
+    background: #eee;
+    border-radius: 8px; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .btn-secondary:hover {
+    background-color: #3CAE5C; 
+    color: #eee; 
+  }
+  
+
+/* Custom styles for responsiveness */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.max-content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+  }
+}
+
+/* Custom CSS for Navbar */
+
+.navbar {
+  background-color: #083A55;
+  transition: box-shadow 0.3s;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.warning-text {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.menu-icon,
+.logo {
+  width: 160px;
+  height: 43px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: auto;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.nav-link.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure the mobile menu covers the full height of smaller screens */
+.mobile-menu {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 40; /* Ensure it overlays other content */
+  overflow-y: auto; /* Allow scrolling if content exceeds the viewport height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-auth-buttons {
+  margin: 20px auto;
+  padding: 0 auto;
+}
