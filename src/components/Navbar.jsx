@@ -75,10 +75,10 @@ const Navbar = () => {
               <img alt="logo" src={digitalLogo} />
             </div>
             <div className="nav-links flex justify-evenly">
-              <a href="#home" className="nav-link text-[15px] font-[Raleway] font-[500] leading-[24px] text-[#3CAE5C] border-b-[2px] border-[#3CAE5C]">Home</a>
-              <a href="#participate" className="nav-link text-[15px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">How to Participate</a>
-              <a href="#about" className="nav-link text-[15px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">About</a>
-              <a href="#faqs" className="nav-link text-[15px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">FAQs</a>
+              <a href="#home" className="nav-link text-[14px] font-[Raleway] font-[500] leading-[24px] text-[#3CAE5C] border-b-[2px] border-[#3CAE5C]">Home</a>
+              <a href="#participate" className="nav-link text-[14px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">How to Participate</a>
+              <a href="#about" className="nav-link text-[14px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">About</a>
+              <a href="#faqs" className="nav-link text-[14px] font-[Raleway] font-[500] leading-[24px] text-[#FFFFFF]">FAQs</a>
             </div>
             <div className="auth-buttons flex items-center gap-[10px]">
               <a href="https://dfa.digitalforall.tech4dev.com/login" className="btn-secondary font-[Ubuntu] font-[400] text-[16px] leading-[24px]">Login</a>
